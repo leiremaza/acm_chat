@@ -1,13 +1,12 @@
 {
   "name": "acm_chat",
   "version": "0.0.0",
-  "homepage": "https://github.com/leiremaza/acm_chat.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "sh deploy.sh",
+    "clean": "rm -rf docs && rm -rf node_modules && rm yarn.lock && rm package-lock.json"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
