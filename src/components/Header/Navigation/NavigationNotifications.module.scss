@@ -1,0 +1,41 @@
+@import './../../../assets/sass/lib/vars';
+
+.notifications {    
+    cursor: default;
+    pointer-events: none;        
+    text-decoration: none;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Todos los demás tamaños */
+    @media all and (min-width: 768px) {
+        margin-right: 1.5rem;
+    }
+
+    /* Tamaño teléfonos móviles y tablets en vertical (768-menos) */
+    @media all and (max-width: 768px) { 
+        margin-right: 1rem;
+    }
+}
+
+.bubble{
+    position: absolute;
+    top: -1px;
+    right: -.1875rem;
+    
+    background-color: $bg_button;
+    border-radius: 50%;
+
+    padding: 0rem .15625rem;
+}
+
+.text {
+    color: $fore_white;
+    font-size: .5rem;
+    text-align: center;
+    line-height: .625rem;
+}

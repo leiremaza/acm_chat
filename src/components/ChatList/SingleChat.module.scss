@@ -1,0 +1,12 @@
+@import './../../assets/sass/lib/vars';
+
+.chat {
+    background-color: $bg_white;
+    margin-bottom: .125rem;
+    padding: .5rem .75rem;
+}
+
+.selected {
+    background-color: $bg_header_section2;
+    color: $fore_white;
+}

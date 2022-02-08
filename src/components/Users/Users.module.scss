@@ -1,0 +1,21 @@
+@import './../../assets/sass/lib/vars';
+
+.users {
+    grid-area: users;
+
+    /* Todos los demás tamaños */
+    @media all and (min-width: 1024px) { 
+        display: flow;
+    }
+
+    /* Tamaño teléfonos móviles (480-menos) */
+    @media all and (max-width: 480px) {  
+        display: none;
+    }
+    
+}
+
+.section_content {
+    background-color: $bg_section1;
+    padding: .25rem;
+}

@@ -1,0 +1,40 @@
+@import './../../assets/sass/lib/vars';
+
+.msg_box {
+    padding: 1.125rem;
+    background: $bg_white;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;    
+}
+
+.msg_input {
+    border-bottom: 1px solid $input_line_color;
+    padding: .625rem;
+    padding-right: 1.3125rem;
+    width: 85%;
+}
+
+.input_control {
+    width: 100%;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: $bg_button;
+    border-radius: .1875rem;
+
+    color: $bg_white;
+    font-family: $font_family_base;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    padding: .375rem .75rem;
+}

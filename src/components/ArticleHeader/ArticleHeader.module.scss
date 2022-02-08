@@ -1,0 +1,45 @@
+@import './../../assets/sass/lib/vars';
+
+.section_header {
+    padding: .5rem .5rem .125rem .5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_header.color1 {
+    background-color: $bg_header_section1;
+}
+
+.section_header.color2 {
+    background-color: $bg_header_section2;
+}
+
+.section_header.hide {
+    padding: .5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: .3125rem;
+}
+
+.title.uppercase {
+    text-transform: uppercase;
+}
+
+.title.centered {
+    margin-bottom: 0;
+}

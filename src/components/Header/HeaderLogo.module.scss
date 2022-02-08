@@ -1,0 +1,68 @@
+@import './../../assets/sass/lib/vars';
+
+.header_brand {
+    display: flex;
+    align-items: center;
+
+    cursor: default;
+    pointer-events: none;        
+    text-decoration: none;
+
+    margin-right: 5rem;
+    padding: .25rem;
+
+    /* Tamaño por defecto pantallas (mínimo 1024) */
+    @media all and (min-width: 1024px) { 
+        margin-right: 5rem;
+    }
+    
+    /* Tamaño tablet horizontal (1024-768) */
+    @media all and (min-width: 768px) and (max-width: 1024px) { 
+        margin-right: 2rem;
+    }
+
+    /* Tamaño tablet vertical y móviles en horizontal */
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+        margin-right: 1.5rem;
+    }
+
+    /* Tamaño teléfonos móviles (480-menos ) */
+    @media all and (max-width: 480px) { 
+        margin-right: 0.75rem;
+    }
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    justify-content: center;
+
+    margin-right: .5rem;
+    font-size: 1.5rem;
+}
+
+.icon_left {
+    color: $bg_logo_left;
+    transform: scaleX(-1);
+}
+
+.icon_right {
+    color: $bg_logo_right;
+    margin-top: .375rem;
+    margin-left: -.25rem;
+}
+
+.header_slogan {
+    color: $fore_header;
+    
+    /* Todos los demás tamaños */
+    @media all and (min-width: 480px) {
+        font-size: .875rem;
+    }
+
+    /* Tamaño teléfonos móviles (480-menos ) */
+    @media all and (max-width: 480px) { 
+        font-size: 0;
+    }
+}

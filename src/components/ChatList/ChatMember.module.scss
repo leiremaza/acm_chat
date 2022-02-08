@@ -1,0 +1,14 @@
+@import './../../assets/sass/lib/vars';
+
+.user_icon {
+    display: flex;
+    align-items: center;
+
+    margin-right: -.6rem;
+    border-radius: 50%;
+}
+
+.user_icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

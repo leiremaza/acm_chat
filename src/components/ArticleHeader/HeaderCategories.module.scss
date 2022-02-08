@@ -1,0 +1,31 @@
+@import './../../assets/sass/lib/vars';
+
+.section_header_categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories {
+    background-color: $bg_white;
+    border-radius: 0.125rem;
+    padding: .75rem;
+
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.categories.hidden {
+    display: none;
+}
+
+.add {
+    display: flex;
+
+    background-color: $bg_button;
+    border-radius: .1875rem;
+
+    margin-left: .5rem;
+    padding: .375rem;
+}

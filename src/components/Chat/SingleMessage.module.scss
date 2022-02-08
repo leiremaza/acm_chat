@@ -1,0 +1,83 @@
+@import './../../assets/sass/lib/vars';
+
+.message {
+    display: grid;
+    padding: .25rem 1rem;
+    grid-template-columns:  repeat(5, 1fr) 46px;
+}
+
+.bubble {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    background-color: $bg_white;
+    padding: .5rem 1rem .5rem .5rem;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.bubble.is_me_speaking {
+    grid-column-start: 2;
+    grid-column-end: 6; 
+}
+
+.msg_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.user_picture {
+    padding: 0 .125rem .125rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.user_picture img{
+    height: 1.5rem;
+}
+
+.user_status {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    
+    padding: .25rem;
+    border-radius: 50%;
+    background-color: $category_grey;
+    border: 1px solid $fore_white;
+}
+
+.user_status.connected {
+    background-color: $category_green;
+}
+
+.msg_right {
+    margin-left: .6875rem;
+    padding: .5rem 0 .25rem 0;
+}
+
+.user_name {
+    color: $fore_dark_grey;
+    line-height: .5625rem; 
+    
+    margin-bottom: .5rem;
+}
+
+.msg_text {
+    margin-top: .5rem;
+}
+
+.time {
+    grid-column-start: -2;
+    grid-column-end: -1;
+
+    color: $fore_black;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 1rem;
+}

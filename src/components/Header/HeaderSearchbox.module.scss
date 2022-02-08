@@ -1,0 +1,40 @@
+@import './../../assets/sass/lib/vars';
+
+.header_searchbox form {
+    display: flex;
+    align-items: center;
+    padding: calc(.625rem - 1px);
+    border-bottom: 1px solid $input_line_color;
+}
+
+.searchbox_icon {
+    display: flex;
+    margin-right: .5rem;
+}
+
+.searchbox_input {
+    line-height: 1rem;
+}
+
+.input_control {
+   
+    /* Tamaño por defecto pantallas (mínimo 1024) */
+    @media all and (min-width: 1024px) { 
+        min-width: 18rem;
+    }
+    
+    /* Tamaño tablet horizontal (1024-768) */
+    @media all and (min-width: 768px) and (max-width: 1024px) { 
+        min-width: 0rem;
+    }
+
+    /* Tamaño tablet vertical y móviles en horizontal */
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+        max-width: 7rem;
+    }
+
+    /* Tamaño teléfonos móviles (480-menos ) */
+    @media all and (max-width: 480px) { 
+        max-width: 5rem;
+    }
+}

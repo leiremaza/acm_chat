@@ -1,0 +1,28 @@
+@import './../../assets/sass/lib/vars';
+
+.chat_list {
+    grid-area: chats;
+
+    /* Todos los demás tamaños */
+    @media all and (min-width: 1024px) { 
+        display: flex;
+    }
+    
+    /* Tamaño teléfonos móviles (480-menos) */
+    @media all and (max-width: 480px) {  
+        display: none;
+    }
+
+    background-color: $bg_section2;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section_content {
+    border-left: 1px solid $border_color;
+    border-right: 1px solid $border_color;
+    padding: .25rem;
+    height: 100%;
+    overflow: auto;
+}

@@ -1,0 +1,56 @@
+@import './../../assets/sass/lib/vars';
+
+.chat_header {
+    margin-bottom: .5rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: $fore_dark_grey;
+    margin-right: 0.5rem;
+}
+
+.title.selected {
+    color: $fore_white;
+}
+
+.ctas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    color: $ctas_inactive;
+}
+
+.button.mute {
+    margin-right: .5rem;
+}
+
+.button.pin {
+	transform: rotate(45deg);
+}
+
+.button.muted {
+	color: $ctas_active;
+}
+
+.button.pinned {
+	color: $ctas_active;
+}
+
+.button.selected {
+    color: $ctas_inactive;
+}
+
+.button.selected.muted {
+    color: $ctas_selected;
+}
+
+.button.selected.pinned {
+    color: $ctas_selected;
+}

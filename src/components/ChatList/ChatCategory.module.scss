@@ -1,0 +1,32 @@
+@import './../../assets/sass/lib/vars';
+
+.category {
+    margin-left: 1px;
+    padding: .3125rem;
+    border: 1px solid $bg_white;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: $category_red;
+}
+
+.orange{
+    background-color: $category_orange;
+}
+
+.green{
+    background-color: $category_green;
+}
+
+.blue{
+    background-color: $category_blue;
+}
+
+.purple{
+    background-color: $category_purple;
+}
+
+.grey{
+    background-color: $category_grey;
+}

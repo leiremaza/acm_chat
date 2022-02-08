@@ -1,0 +1,27 @@
+@import './../../assets/sass/lib/vars';
+
+.cases {
+    grid-area: cases;
+
+    /* Tamaño por defecto pantallas (mínimo 1024) */
+    @media all and (min-width: 1024px) { 
+        display: flex;
+    }
+    
+    /* Todos los demás tamaños */
+    @media all and (max-width: 1024px) { 
+        display: none;
+    }
+
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.section_content {
+    background-color: $bg_section1;
+    padding: .25rem;
+    height: 100%;
+    overflow: auto;
+}

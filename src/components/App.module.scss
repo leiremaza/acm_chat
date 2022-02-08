@@ -1,0 +1,52 @@
+@import './../assets/sass/lib/vars';
+
+.app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "head" 
+                         "main";
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content {
+    grid-area: main;
+    display: grid;
+
+    /* Tamaño por defecto pantallas (mínimo 1024) */
+    @media all and (min-width: 1024px) { 
+        grid-template-columns: 320px 320px 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "cases chats chat"
+                             "users chats chat" ;
+    }
+    
+    /* Tamaño tablet horizontal (1024-768) */
+    @media all and (min-width: 768px) and (max-width: 1024px) { 
+        grid-template-columns: 280px 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "chats chat"
+                             "users chat";
+    }
+
+    /* Tamaño tablet vertical y móviles en horizontal */
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+        grid-template-columns: 240px 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "chats chat"
+                             "users chat";
+    }
+
+    /* Tamaño teléfonos móviles (480-menos ) */
+    @media all and (max-width: 480px) { 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "chat";
+    }
+
+    background-color: $bg_content;
+
+    height: 100%;
+    overflow: hidden;
+}   

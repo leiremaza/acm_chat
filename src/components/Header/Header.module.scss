@@ -1,0 +1,28 @@
+@import './../../assets/sass/lib/vars';
+
+.header {
+    grid-area: head;
+
+    font-family: $font_family_base;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: .625rem 1rem;
+    
+    /*margin-bottom: 1rem;
+    border-bottom: 1px solid #888;*/
+}
+
+.header_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .09375rem;
+}

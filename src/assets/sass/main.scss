@@ -1,0 +1,112 @@
+@import 'lib/vars';
+@import 'lib/mixins';
+@import 'lib/reboot';
+@import 'lib/fontawesome/font-awesome';
+@import 'lib/fontface';
+@import 'lib/keyframes';
+
+/*$corporateColor: tomato;
+
+* {
+    border: 1px solid $corporateColor;
+}*/
+
+html,
+body {
+    font-size: $base * 2;
+    font-family: $font_family_base;
+    line-height: 1.25rem;
+    color: $body_color;
+    min-height: 100vh;
+}
+
+h2 { 
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    color: $fore_white;
+    font-family: $font_family_base;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+}
+
+h3 { 
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    color: $fore_dark_grey;
+    font-family: $font_family_base;
+    font-size: .875rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    color: $fore_dark_grey;
+    font-family: $font_family_base;
+    font-size: .875rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+}
+
+h5 { 
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    color: $fore_grey;
+    font-family: $font_family_base;
+    font-size: .75rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    color: $fore_dark_grey;
+    font-family: $font_family_base;    
+    font-size: .875rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+}
+
+button {
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    &:focus {
+      outline: none;
+    }
+}
+
+input {
+    border: none;
+    padding: 0;
+
+    color: $fore_grey;
+    font-family: $font_family_base;
+    font-size: .875rem;
+    font-weight: normal;
+}

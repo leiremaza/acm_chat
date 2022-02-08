@@ -1,0 +1,24 @@
+@import './../../assets/sass/lib/vars';
+
+.chat_header {
+    background-color: $bg_header_section3;
+    padding: .5rem 1.6875rem .6875rem;
+}
+
+.chat_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    margin-left: .75rem;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+    margin-top: .375rem;
+}

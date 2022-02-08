@@ -1,0 +1,49 @@
+@import './../../assets/sass/lib/vars';
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: $bg_white;
+    margin-bottom: .125rem;
+    padding: .25rem .75rem;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.user_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0;
+}
+
+.user_icon {
+    margin-right: .75rem;
+}
+
+.user_icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.user_name {
+    color: $fore_dark_grey;
+}
+
+.user_status {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+    padding: .3125rem;
+    border-radius: 50%;
+    background-color: $category_grey;
+}
+
+.user_status.connected {
+    background-color: $category_green;
+}

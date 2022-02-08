@@ -1,0 +1,16 @@
+.header_navi {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header_navi ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}

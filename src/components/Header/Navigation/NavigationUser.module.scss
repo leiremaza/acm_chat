@@ -1,0 +1,33 @@
+@import './../../../assets/sass/lib/vars';
+
+.user {    
+    cursor: default;
+    pointer-events: none;        
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    margin-right: .5rem;
+}
+
+.picture img {
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+
+.label {
+    color: $fore_header;
+    
+    /* Todos los demás tamaños */
+    @media all and (min-width: 768px) {
+        font-size: .875rem;
+    }
+
+    /*  Tamaño teléfonos móviles y tablets en vertical (768-menos) */
+    @media all and (max-width: 768px) { 
+        font-size: 0;
+    }
+}

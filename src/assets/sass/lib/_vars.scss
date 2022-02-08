@@ -1,0 +1,67 @@
+$font_family_base: 'Roboto', 'Source Sans Pro', 'Helvetica', Arial, sans_serif;
+$font_size_base: 16px;
+$font_weight_base: normal;
+$line_height_base: 1.4;
+$body_color: #333;
+$body_bg: #fff;
+
+$headings_margin_bottom: 1em;
+$paragraph_margin_bottom: 1em;
+
+$dt_font_weight: bold;
+
+$link_color: #345c8d;
+$link_decoration: none;
+$link_hover_color: darken($link_color, 10%);
+$link_hover_decoration: none;
+$table_cell_padding: .5em;
+
+$text_muted: lighten($body_color, 15%);
+
+$base: .5rem;
+
+/**********************************************/
+/*                MY VARIABLES                */
+/**********************************************/
+
+$fore_black: #000000;
+$fore_header: #333333;
+$fore_dark_grey: #393939;
+$fore_grey: #888888;
+$fore_white: #FFFFFF;
+
+$bg_white: #FFFFFF;
+
+$bg_header: #FFFFFF;
+$bg_content: #F2F2F2; 
+
+$bg_section1: #E7E7E7;
+$bg_section2: #DCDCDC;
+$bg_section3: #F2F2F2;
+
+$bg_header_section1: #8FC7FD;
+$bg_header_section2: #73BAFF;
+$bg_header_section3: #5CAFFF;
+
+$bg_button: #43A1FC;
+
+$bg_logo_left: #43A1FC;
+$bg_logo_right: #8FC7FD;
+
+$border_color: #CCCCCC;
+$input_line_color: #CDCDCD;
+
+$ctas_active: #43A1FC; 
+$ctas_inactive: #CDCDCD;
+$ctas_selected: #FFFFFF;
+
+$category_red: #EB5757;
+$category_orange: #F2994A;
+$category_green: #27AE60;
+$category_blue: #2D9CDB;
+$category_purple: #BB6BD9;
+$category_grey: #BDBDBD;
+
+$user_connected: #27AE60;
+$user_disconnected: #BDBDBD;
+$user_inactive: #F2994A;

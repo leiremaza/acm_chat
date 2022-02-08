@@ -1,0 +1,30 @@
+@import './../../assets/sass/lib/vars';
+
+.chat_body {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+}
+
+.chat_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+}
+
+.date {
+    margin-left: .625rem;
+}
+
+.date.selected {
+    color: $fore_white;
+}

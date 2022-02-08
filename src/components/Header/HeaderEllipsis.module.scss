@@ -1,0 +1,35 @@
+.header_ellipsis {
+
+	padding: .3rem;
+	border-radius: .25rem;
+	transition-duration: 0.4s;
+
+	/* Tamaño por defecto pantallas (mínimo 1024) */
+    @media all and (min-width: 1024px) { 
+        margin-left: 3.75rem;
+    }
+    
+	/* Tamaño tablet horizontal (1024-768) */
+	@media all and (min-width: 768px) and (max-width: 1024px) { 
+		margin-left: 2rem;
+	}
+
+	/* Tamaño tablet vertical y móviles en horizontal */
+	@media all and (min-width: 480px) and (max-width: 768px) { 
+		margin-left: 1.5rem;
+	}
+
+	/* Tamaño teléfonos móviles (480-menos ) */
+	@media all and (max-width: 480px) { 
+		margin-left: 0.75rem;
+	}
+}
+
+.header_ellipsis:hover {
+	background-color: whitesmoke;
+}
+
+.header_ellipsis:active {
+	background-color: gainsboro;
+}
+

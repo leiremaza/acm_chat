@@ -1,0 +1,30 @@
+@import './../../assets/sass/lib/vars';
+
+.case_ctas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+	line-height: 0;
+	color: $ctas_inactive;
+}
+
+.button.mute {
+    margin-right: .5rem;
+}
+
+.button.pin {
+	transform: rotate(45deg);
+}
+
+.button.muted {
+	color: $ctas_active;
+}
+
+.button.pinned {
+	color: $ctas_active;
+}
+
+

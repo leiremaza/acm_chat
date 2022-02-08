@@ -1,0 +1,17 @@
+@import './../../assets/sass/lib/vars';
+
+.case {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: $bg_white;
+    padding: .5rem .75rem;
+    margin-bottom: .125rem;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    line-height: 0;
+}

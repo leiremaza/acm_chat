@@ -1,0 +1,35 @@
+@import './../../assets/sass/lib/vars';
+
+.category{
+    margin-right: .75rem;
+    padding: .3125rem;
+    border-radius: 50%;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.red{
+    background-color: $category_red;
+}
+
+.orange{
+    background-color: $category_orange;
+}
+
+.green{
+    background-color: $category_green;
+}
+
+.blue{
+    background-color: $category_blue;
+}
+
+.purple{
+    background-color: $category_purple;
+}
+
+.grey{
+    background-color: $category_grey;
+}
