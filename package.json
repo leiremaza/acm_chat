@@ -5,8 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "sh deploy.sh",
-    "clean": "rm -rf docs && rm -rf node_modules && rm yarn.lock && rm package-lock.json"
+    "deploy": "./deploy.sh",
+    "clean": "del /s /q docs && del /s /q node_modules && del yarn.lock && del package-lock.json"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -18,7 +18,8 @@
     "@mui/material": "^5.4.1",
     "dayjs": "^1.10.7",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-scripts": "^5.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
