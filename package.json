@@ -7,7 +7,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "predeploy" : "yarn build",
-    "deploy": "gh-pages -d build", 
+    "deploy": "gh-pages -d dist", 
     "clean": "del /s /q docs && del /s /q node_modules && del yarn.lock && del package-lock.json"
   },
   "dependencies": {
