@@ -3,12 +3,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![ACM CHAT][product-screenshot]](https://example.com)
-
-This is a page that simulates an interface of a web chat. A demo of this application can be seen as in https://leiremaza.github.io/acm_chat/
+<h3>ACM CHAT</h3>
+<p>This application is a page that simulates an interface of a web chat.<br>A demo of this application can be seen as in https://leiremaza.github.io/acm_chat/</p>
 <div style="display:flex">
-  <img src="" alt="demo" width="80" height="80">
+  <img src="https://user-images.githubusercontent.com/56254905/153918565-f5f550c7-eb3c-42cc-98e0-7688cf0ed2d6.PNG" alt="demo" height="350">
 </div>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
